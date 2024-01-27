@@ -1,0 +1,92 @@
+.checkbox {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.hamburgerLines {
+  display: block;
+  height: 24px;
+  width: 32px;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburgerLines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.hamburgerLines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.hamburgerLines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.hamburgerLines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.menuItems {
+  opacity: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: absolute;
+  top: 32px;
+  right: 0;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0px 0px 10px 0px #00000054;
+  backdrop-filter: blur(50px);
+  white-space: nowrap;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0.5px solid #BACACA54;
+}
+
+.menuItems a {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .body {
+  overflow: hidden;
+}
+
+input[type="checkbox"]:checked ~ .menuItems a {
+  display: block;
+}
+
+input[type="checkbox"]:checked ~ .menuItems {
+  opacity: 1;
+  z-index: 1000;
+  transition: opacity 0.5s ease-in-out;
+}
+
+input[type="checkbox"]:checked ~ .hamburgerLines .line1 {
+  transform: rotate(45deg);
+  scale: 0.95;
+}
+
+input[type="checkbox"]:checked ~ .hamburgerLines .line2 {
+  transform: scaleY(0);
+}
+
+input[type="checkbox"]:checked ~ .hamburgerLines .line3 {
+  transform: rotate(-45deg);
+  scale: 0.95;
+}
