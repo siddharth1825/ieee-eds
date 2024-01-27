@@ -8,7 +8,7 @@ import { motion, type Variants } from "framer-motion";
 export default function About() {
   const leftVariant: Variants = {
     offscreen: {
-      x: -400,
+      x: -300,
     },
     onscreen: {
       x: 0,
@@ -22,7 +22,7 @@ export default function About() {
 
   const rightVariant: Variants = {
     offscreen: {
-      x: 400,
+      x: 300,
     },
     onscreen: {
       x: 0,
