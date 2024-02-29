@@ -2,6 +2,9 @@ import Image, { type StaticImageData } from "next/image";
 import fac from "@/assets/team/fac.svg";
 import adv from "@/assets/team/SivasankaranSir.jpeg"
 import cord from "@/assets/team/RajeevSir.jpeg"
+import chair from "@/assets/team/Hitesha.jpeg"
+import vchair from "@/assets/team/Rudra.jpeg"
+import sec from "@/assets/team/Aatesh.png"
 
 export default function Team() {
   return (
@@ -38,46 +41,43 @@ export default function Team() {
         </p>
       </div>
       <div className="grid grid-cols-6">
-        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-4 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
+        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-20 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
           <Image
-            src={fac as StaticImageData}
+            src={chair}
             alt="fac"
             width={100}
             height={100}
-            className="pb-4"
+            className="pb-4 mt-4"
           />
-          <p className="pb-4 text-xl font-medium text-white">JOHN DOE</p>
+          <p className="mt-4 pb-4 text-center text-xl font-medium text-white">Hitesha Thakur</p>
           <p className="text-center text-[#BCCACA]">
-            We are always one step ahead; we challenge convention and push the
-            boundaries of what can be achieved
+            Chairperson
           </p>
         </div>
-        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-4 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
+        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center justify-center border-[0.5px] border-[#505050] px-20 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
           <Image
-            src={fac as StaticImageData}
+            src={vchair}
             alt="fac"
             width={100}
             height={100}
             className="pb-4"
           />
-          <p className="pb-4 text-xl font-medium text-white">JOHN DOE</p>
+          <p className="pb-4 text-center text-xl font-medium text-white">Rudrajyoti Dasgupta</p>
           <p className="text-center text-[#BCCACA]">
-            We are always one step ahead; we challenge convention and push the
-            boundaries of what can be achieved
+            Vice Chair
           </p>
         </div>
-        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-4 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
+        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-20 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
           <Image
-            src={fac as StaticImageData}
+            src={sec}
             alt="fac"
             width={100}
             height={100}
-            className="pb-4"
+            className="pb-4 mt-4"
           />
-          <p className="pb-4 text-xl font-medium text-white">JOHN DOE</p>
+          <p className="pb-4 text-center mt-4 text-xl font-medium text-white">Aathesh Vigram</p>
           <p className="text-center text-[#BCCACA]">
-            We are always one step ahead; we challenge convention and push the
-            boundaries of what can be achieved
+            Secretary
           </p>
         </div>
         <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-4 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
