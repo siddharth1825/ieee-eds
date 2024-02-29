@@ -109,17 +109,16 @@ export default function Events() {
             className="h-full w-full p-2 md:pl-16"
           >
             <h1 className="text-bold py-2 text-left text-2xl font-bold text-[#A7A9BE]">
-              LOREM IPSUM
+            FPGA Xcelerator
             </h1>
             <div className="flex flex-col sm:flex-row sm:items-center">
               <p className="text-left text-base text-[#E8E8EE] sm:mr-2">
-                June 4th 2023
+                8 July 2023
               </p>
             </div>
 
             <p className="pt-5 text-left text-xs font-medium text-[#E8E8EE] sm:text-base">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
-              consequatur.
+            FPGA Xcelerator: Empowering Digital Innovators with Intel FPGAs event concluded with resounding success, equipping participants with the knowledge and skills to become digital innovators. Through an immersive learning experience, attendees gained a comprehensive understanding of Intel FPGA architecture and Quartus Prime software. They mastered Verilog HDL constructs, honed their ability to describe logic circuits, and gained expertise in simulating and analyzing digital designs using ModelSim. The hands-on lab sessions provided participants with practical experience in implementing logic circuits on Intel FPGAs. As a result, attendees are now empowered to design and debug digital systems, unleashing their creative potential to shape the future of digital innovation.
             </p>
           </motion.div>
         </motion.div>
@@ -134,16 +133,15 @@ export default function Events() {
             className="h-full w-full p-2 md:pl-4 md:pr-16"
           >
             <h1 className="text-bold py-2 text-left text-2xl font-bold text-[#A7A9BE]">
-              Lorem Ipsum
+              Mini Colloquia | Electra
             </h1>
             <div className="flex flex-col sm:flex-row sm:items-center">
               <p className="text-left text-base text-[#E8E8EE] sm:mr-2">
-                June 5th 2023
+                8 - 10 March 2024
               </p>
             </div>
             <p className="pt-5 text-left text-xs font-medium text-[#E8E8EE] sm:text-base">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-              fugit!
+            The quantum computing event proved highly successful, fostering students' comprehensive understanding of the field. Attendees gained insights into the myriad advantages of quantum computing and acquired essential coding skillsets crucial for quantum simulation. The event not only enriched their knowledge but also contributed significantly to their holistic development. By exploring the intricacies of quantum computing, students not only expanded their technical proficiency but also cultivated a broader perspective on emerging technologies. The event's triumph lies in its ability to seamlessly integrate theoretical concepts with practical coding applications, empowering students for the challenges and opportunities presented by the rapidly evolving quantum computing landscape.
             </p>
           </motion.div>
         </motion.div>
@@ -215,7 +213,7 @@ export default function Events() {
               </defs>
             </svg>
           </motion.div>
-        </motion.div>
+        {/* </motion.div>
         <div className="col-span-4 h-full w-full">
           <div className="flex justify-end pt-24 sm:w-full sm:pt-0 md:pl-28 lg:pl-56"></div>
         </div>
@@ -505,7 +503,7 @@ export default function Events() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
               ratione?
             </p>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </div>
     </div>
