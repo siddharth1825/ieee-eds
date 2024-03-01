@@ -46,7 +46,7 @@ export default function Team() {
         </p>
       </div>
       <div className="grid grid-cols-6">
-        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-20 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
+        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-4 w-[100%] py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
           <Image
             src={chair}
             alt="fac"
@@ -59,7 +59,7 @@ export default function Team() {
             Chairperson
           </p>
         </div>
-        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center justify-center border-[0.5px] border-[#505050] px-20 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
+        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center justify-center border-[0.5px] border-[#505050] px-4 w-[100%] py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
           <Image
             src={vchair}
             alt="fac"
@@ -72,7 +72,7 @@ export default function Team() {
             Vice Chair
           </p>
         </div>
-        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-20 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
+        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-4 w-[100%] py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
           <Image
             src={sec}
             alt="fac"
@@ -85,7 +85,7 @@ export default function Team() {
             Secretary
           </p>
         </div>
-        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-20 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
+        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-4 w-[100%] py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
           <Image
             src={fin}
             alt="fac"
@@ -98,7 +98,7 @@ export default function Team() {
             Co Secretary
           </p>
         </div>
-        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-20 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
+        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-4 w-[100%] py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
           <Image
             src={fin}
             alt="fac"
@@ -111,7 +111,7 @@ export default function Team() {
             Finance Head
           </p>
         </div>
-        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-20 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
+        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-4 w-[100%] py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
           <Image
             src={pr}
             alt="fac"
@@ -124,7 +124,7 @@ export default function Team() {
             Pr and Marketing Head
           </p>
         </div>
-        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-20 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
+        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-4 w-[100%] py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
           <Image
             src={design}
             alt="fac"
@@ -137,7 +137,7 @@ export default function Team() {
             Design Head
           </p>
         </div>
-        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-20 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
+        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-4 w-[100%] py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
           <Image
             src={outreach}
             alt="fac"
@@ -150,7 +150,7 @@ export default function Team() {
             Outreach Head
           </p>
         </div>
-        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-20 py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
+        <div className="col-span-6 mx-auto mb-4 mt-10 flex max-w-xs flex-col items-center border-[0.5px] border-[#505050] px-4 w-[100%] py-6 shadow-md shadow-[#BACACA] sm:col-span-3 md:col-span-2">
           <Image
             src={hr}
             alt="fac"
