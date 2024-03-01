@@ -173,7 +173,7 @@ export default function Team() {
           />
           <p className="mt-4 pb-4 text-center text-xl font-medium text-white">Viraj Gupta</p>
           <p className="text-center text-[#BCCACA]">
-            RnD Head
+            Research and Developement Head
           </p>
         </div>
       </div>
